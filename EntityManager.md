@@ -29,8 +29,8 @@ par Maven.
 
 Un contexte de persistance (_persistance context_) est un ensemble d'entités chargées depuis une base de données ou sauvegardées dans une base de données.
 
-En Hibernate, il est représenté par une instance de [org.hibernate.Session](http://docs.jboss.org/hibernate/orm/5.2/javadocs/org/hibernate/Session.html). Dans JPA, il s'agit d'une instance 
-de [javax.persistence.EntityManager](https://docs.oracle.com/javaee/7/api/javax/persistence/EntityManager.html)
+En Hibernate, il est représenté par une instance de [org.hibernate.Session](https://docs.jboss.org/hibernate/orm/current/javadocs/org/hibernate/Session.html). Dans JPA, il s'agit d'une instance 
+de [jakarta.persistence.EntityManager](https://jakarta.ee/specifications/platform/9/apidocs/?jakarta/persistence/EntityManager.html)
 Quand Hibernate est utilisé comme implantation de JPA et qu'on utilise un _EntityManager_ dans le code, c'est implicitement un objet _Session_ qui
 est manipulé.
 
